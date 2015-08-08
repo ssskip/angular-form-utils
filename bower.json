@@ -1,0 +1,17 @@
+{
+  "name": "angular-form-utils",
+  "version": "0.0.1",
+  "main": "dist/angular-form-utils.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssskip/angular-form-utils.git"
+  },
+  "dependencies": {
+    "angular": ">=1.2.0"
+  },
+  "ignore": [
+    ".*",
+    "package.json",
+    "test"
+  ]
+}

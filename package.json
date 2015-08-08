@@ -1,0 +1,32 @@
+{
+  "name": "angular-form-utils",
+  "version": "0.0.1",
+  "main": "dist/angular-form-utils.min.js",
+  "description": "implement common form validate-able field",
+  "homepage": "https://github.com/ssskip/angular-form-utils",
+  "bugs": "https://github.com/ssskip/angular-form-utils/issues",
+  "keywords": [
+  ],
+  "author": {
+    "name": "ssskip",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssskip/angular-form-utils.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-junit-reporter": "~0.1.0",
+    "gulp": "~3.9.0",
+    "gulp-uglify": "~0.2.1",
+    "gulp-concat": "~2.6.0"
+  }
+}
