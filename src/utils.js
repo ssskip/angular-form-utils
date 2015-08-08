@@ -10,13 +10,13 @@ angular.module('kp.form.utils', [])
       }
     };
   })
-  .directive('kpEndsWith', function () {
+  .directive('kpEndWith', function () {
     return {
       require: 'ngModel',
       link: function (scope, ele, attr, modelCtrl) {
         modelCtrl.$parsers.unshift(function (value) {
           var suffix = attr.endsWith;
-          modelCtrl.$setValidity('endsWith', value.indexOf(suffix, value.length - suffix.length) > -1);
+          modelCtrl.$setValidity('endWith', value.indexOf(suffix, value.length - suffix.length) > -1);
         });
       }
     };
