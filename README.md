@@ -2,5 +2,5 @@
 
 implement common form validate-able field
 
-[x]integer field
-[x]end with field
+- [x]integer field
+- [x]end with field
